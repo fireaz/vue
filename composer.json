@@ -1,9 +1,9 @@
 {
-  "name": "fireaz/boilerplate",
-  "description": "A PHP library for boilerplate code syntax.",
+  "name": "fireaz/vue",
+  "description": "A PHP library for vue code syntax.",
   "license": "MIT",
   "keywords": [],
-  "homepage": "https://github.com/fireaz/laravel-package-boilerplate",
+  "homepage": "https://github.com/fireaz/vue",
   "authors": [
     {
       "name": "nguyen van hau",
@@ -21,7 +21,7 @@
       "helpers/function.php"
     ],
     "psr-4": {
-      "FireAZ\\Boilerplate\\": "src/"
+      "FireAZ\\Vue\\": "src/"
     }
   },
   "autoload-dev": {
@@ -36,7 +36,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "FireAZ\\Boilerplate\\BoilerplateServiceProvider"
+        "FireAZ\\Vue\\VueServiceProvider"
       ],
       "aliases": {}
     }
